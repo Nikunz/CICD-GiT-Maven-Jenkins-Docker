@@ -50,6 +50,10 @@
         <configuration>
           <reportPlugins>
             <plugin>
+              <artifactId>maven-enforcer-plugin</artifactId>
+            </plugin>
+                   
+            <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
 
